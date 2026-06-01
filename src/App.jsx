@@ -122,7 +122,7 @@ export default function App() {
         <div className="hero-photo-wrap">
           <div className="hero-photo-deco" />
           <div className="hero-photo-frame">
-            <img src="./public/Imagen CV.jpeg" alt="Florencia Cracogna" />
+            <img src="/Imagen CV.jpeg" alt="Florencia Cracogna" />
           </div>
         </div>
       </header>
