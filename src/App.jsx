@@ -219,7 +219,7 @@ export default function App() {
       <Contact />
 
       <footer className="footer">
-        <p>Diseñado y desarrollado por Florencia Cracogna · 2025</p>
+        <p>Diseñado y desarrollado por Florencia Cracogna · 2026</p>
       </footer>
 
       <ScrollToTop />
