@@ -264,9 +264,10 @@ body {
 /* ── STACK ── */
 .stack-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
-  gap: 12px;
+  grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+  gap: 0.75rem;
 }
+
 .stack-tag {
   display: flex;
   flex-direction: column;
@@ -597,4 +598,19 @@ body {
 a.nav-logo {
   text-decoration: none;
   color: var(--ink);
+}
+
+.stack-groups {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.stack-group-title {
+  font-size: 0.75rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+  color: #6b6b6b;
+  margin: 0 0 0.75rem;
 }

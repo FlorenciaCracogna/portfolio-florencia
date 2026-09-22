@@ -34,6 +34,25 @@ const PROJECTS = [
     ],
   },
   {
+    badge: "Proyecto Freelance · En desarrollo",
+    title: "Estudio Vía3",
+    desc: "Sitio institucional para un estudio de aprendizaje organizacional, con contenido autogestionable desde Sanity CMS. Incluye actualización de contenido en tiempo real con Live Content API y webhooks de revalidación, carruseles animados con requestAnimationFrame, modales accesibles, formulario de contacto con envío de emails vía Resend e imágenes optimizadas con Cloudinary.",
+    tags: [
+      "Next.js",
+      "TypeScript",
+      "Tailwind",
+      "Sanity CMS",
+      "Resend",
+      "Cloudinary",
+    ],
+    links: [
+      {
+        label: "⌨️ Repo",
+        href: "https://github.com/FlorenciaCracogna/estudio-via3",
+      },
+    ],
+  },
+  {
     badge: "Proyecto Individual · M4",
     title: "Ecommerce Backend",
     desc: "API REST para un ecommerce tecnológico con gestión de usuarios, productos, categorías y órdenes. Implementa autenticación JWT, encriptación de contraseñas, control de roles, soft delete y documentación interactiva con Swagger.",
@@ -50,6 +69,22 @@ const PROJECTS = [
       {
         label: "⌨️ Repo",
         href: "https://github.com/FlorenciaCracogna/Ecommerce-backend-M4",
+      },
+    ],
+  },
+  {
+    badge: "Proyecto Personal · Emprendimiento",
+    title: "FlorEntreVelas — Catálogo web",
+    desc: "Catálogo online para mi emprendimiento de velas artesanales. Organiza los productos por categoría, carga imágenes y videos desde Cloudinary y conecta cada producto con WhatsApp para consultas directas. Tiene identidad visual propia y deploy continuo en Vercel.",
+    tags: ["React", "TypeScript", "Vite", "Tailwind", "Cloudinary", "Vercel"],
+    links: [
+      {
+        label: "🌐 Demo",
+        href: "https://florentrevelas-catalogo.vercel.app/",
+      },
+      {
+        label: "⌨️ Repo",
+        href: "https://github.com/FlorenciaCracogna/Florentrevelas-catalogo",
       },
     ],
   },
@@ -144,9 +179,10 @@ export default function App() {
               y me enamoré del proceso.
             </p>
             <p>
-              Hoy finalizando el bootcamp Henry con especialización Backend,
+              Egresada del bootcamp Henry con especialización Backend, hoy
               construyo proyectos donde el código y el negocio hablan el mismo
-              idioma. Me interesa especialmente el desarrollo de APIs,
+              idioma, incluyendo trabajos freelance para clientes reales. 
+              Me interesa especialmente el desarrollo de APIs,
               arquitectura de sistemas y proyectos con lógica financiera o de
               gestión empresarial.
             </p>
